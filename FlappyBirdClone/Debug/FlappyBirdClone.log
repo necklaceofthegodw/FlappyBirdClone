@@ -1,0 +1,11 @@
+﻿  GameLogic.cpp
+  Image2D.cpp
+  main.cpp
+  Object2D.cpp
+  Obstacle.cpp
+  Player.cpp
+  ResourceManager.cpp
+  UI.cpp
+  World.cpp
+  Generowanie kodu...
+  FlappyBirdClone.vcxproj -> C:\Users\xiens\source\repos\FlappyBirdClone\Debug\FlappyBirdClone.exe
