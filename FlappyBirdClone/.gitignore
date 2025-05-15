@@ -1,3 +1,41 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+*.vs/
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+!SDL3.dll
+!SDL3_image.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+!SDL3.lib
+!SDL3_image.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
 .vs/FlappyBirdClone/v16/.suo
 .vs/FlappyBirdClone/v16/Browse.VC.db
 .vs/FlappyBirdClone/v16/ipch/AutoPCH/12eaefc313336282/PLAYER.ipch
@@ -18,3 +56,4 @@
 .vs/FlappyBirdClone/v16/ipch/AutoPCH/d335ee1e67076d77/RESOURCEMANAGER.ipch
 .vs/FlappyBirdClone/v16/ipch/AutoPCH/d89589b7e8140436/OBSTACLE.ipch
 .vs/FlappyBirdClone/v16/ipch/AutoPCH/da138ce478141fbf/OBJECT2D.ipch
+
