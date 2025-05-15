@@ -1,0 +1,15 @@
+Hello,
+
+To run the project open the .sln file in Visual Studio ( I used Visual Studio 2019 ) and choose x86 Debug configuration
+All the SDL libraries are already included in the project.
+
+I completed all the main tasks:
+* The game doesn’t compile out of the box.
+* Points stop adding up after the first obstacle.
+* For some reason, the bird flies straight through the floor. That’s not ideal.
+* The bird animation is choppy and not smooth.
+* Pipes mysteriously disappear after a while.
+* Unlike the original, the bird doesn’t rotate when it moves.
+
+And as an additional feature request I chose:
+* Varied Pipe Spacing – Right now all pipes are evenly spaced on the X-axis. That’s boring. Let’s spice it up with some randomness.
