@@ -57,11 +57,10 @@ void CPlayer::HandlePhysics(float deltaTime)
         m_UpwardForce -= JUMP_FORCE * deltaTime;
     }
 
-    passedTime += deltaTime; 
-    if (passedTime > ROTATION_UPDATE_TIME)
+    m_PassedTime += deltaTime; 
+    if (m_PassedTime > ROTATION_UPDATE_TIME)
     {
-
-        if (GetY() - lastFrameY > 0)
+        if (GetY() - m_LastFrameY > 0)
         {
             SetRotation(ROTATION_DOWN);
         }
@@ -70,8 +69,8 @@ void CPlayer::HandlePhysics(float deltaTime)
             SetRotation(ROTATION_UP);
         }
 
-        passedTime = 0;
-        lastFrameY = GetY();
+        m_PassedTime = 0;
+        m_LastFrameY = GetY();
     }
 
 

@@ -20,9 +20,7 @@ void CWorld::Initialize(const CResourceManager& resourceManager)
 
     SetInitialFloorPosition();
     SetInitalObstaclesPosition();
-
 }
-
 
 void CWorld::ResetWorld()
 {
@@ -54,7 +52,6 @@ void CWorld::SetInitalObstaclesPosition()
     }
 }
 
-
 bool CWorld::CheckPlayerCollision(const CObject2D& player) const
 {
     auto result = false;
@@ -72,7 +69,6 @@ bool CWorld::CheckPlayerCollision(const CObject2D& player) const
 
     return result;
 }
-
 
 const CObstacle& CWorld::GetFirstObstacle() const
 {
@@ -132,7 +128,6 @@ float CWorld::GetObstacleRandomDistanceX() const
 {
     return static_cast<float>(rand() % static_cast<int>(OBSTACLE_MAX_DIST_X - OBSTACLE_MIN_DIST_X)) + OBSTACLE_MIN_DIST_X;
 }
-
 
 void CWorld::Update(float deltaTime)
 {

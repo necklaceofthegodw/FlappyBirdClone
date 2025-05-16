@@ -41,8 +41,8 @@ private:
     CImage2D m_AnimationImages[ANIMATION_FRAMES_COUNT];
     int m_CurrentImageIndex = 0;
     float m_AnimationTime = 0.0f;
-    float lastFrameY = 0.0f;
-    float passedTime = 0.0f;
+    float m_LastFrameY = 0.0f;
+    float m_PassedTime = 0.0f;
 
     float m_UpwardForce = 0.0f;
     bool m_UpdatePhysics = false;
